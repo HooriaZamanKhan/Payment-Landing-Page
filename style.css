@@ -1,0 +1,48 @@
+
+body{
+    background-color: #1e1e1e;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+}
+
+.navbar .nav-link {
+    display: inline-block;
+    color: rgb(255, 255, 255); /* Specifically target navbar links */
+}
+
+.navbar-nav{
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 200% ;
+    padding-top: 50px;
+    padding-left: 200px;
+}
+
+.btn{
+    background-color: rgb(216, 180, 249);
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    width: 150px;
+    height: 50px;    
+} 
+
+.btn:hover{
+    background-color: rgb(198, 155, 239) ;
+    color: rgb(0, 0, 0);
+}
+
+#FH{
+    color: rgb(205, 179, 229);
+    text-align: center;
+    padding-top: 200px;
+    letter-spacing: 10px;
+}
+
+.heading{
+    color: white;
+    font-weight: bold;
+    padding-left: 220px;
+}
+
+.button2{
+    padding-left: 220px;
+}
